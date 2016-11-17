@@ -1,0 +1,49 @@
+.message{
+	margin-top:350px;
+	margin-bottom: 400px;
+}
+
+
+.tilt {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.tilt__back,
+.tilt__front {
+	width: 100%;
+	height: 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.tilt__back {
+	position: relative;
+}
+
+.tilt__front {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+/* my code*/
+
+li > a {
+    font-size: 18px;
+}
+.fa{
+	font-size: 20px;
+	margin:10px;
+}
+
+.text-muted {
+    color: #777;
+    font-size: 15px;
+    margin-top:10px;
+}

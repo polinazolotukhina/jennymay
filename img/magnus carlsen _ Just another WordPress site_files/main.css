@@ -1,0 +1,332 @@
+/* BASE - base styles, mixins, etc. */
+/*==========  Non-Mobile First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /* line 6, ../scss/base/_base.scss */
+  #interestingheader {
+    position: absolute;
+    margin-top: -20px;
+    background: white;
+    left: 50%;
+    width: 234px;
+    margin-left: -117px;
+  }
+
+  /* line 14, ../scss/base/_base.scss */
+  .thick_line {
+    width: 1111px;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /* line 22, ../scss/base/_base.scss */
+  #interestingheader {
+    position: absolute;
+    margin-top: -20px;
+    background: white;
+    left: 50%;
+    width: 234px;
+    margin-left: -117px;
+  }
+
+  /* line 30, ../scss/base/_base.scss */
+  .thick_line {
+    width: 1111px;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /* line 37, ../scss/base/_base.scss */
+  #interestingheader {
+    position: absolute;
+    margin-top: -18px;
+    background: white;
+    left: 50%;
+    width: 234px;
+    margin-left: -117px;
+  }
+
+  /* line 46, ../scss/base/_base.scss */
+  .thick_line {
+    width: 1139px;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /* line 54, ../scss/base/_base.scss */
+  #interestingheader {
+    position: absolute;
+    margin-top: -18px;
+    background: white;
+    left: 50%;
+    width: 234px;
+    margin-left: -117px;
+  }
+}
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /* line 67, ../scss/base/_base.scss */
+  #interestingheader {
+    position: absolute;
+    margin-top: -18px;
+    background: white;
+    left: 50%;
+    width: 234px;
+    margin-left: -117px;
+  }
+}
+/* MODULS, individual components */
+/* line 1, ../scss/modules/_typography.scss */
+.headers, #shop button, #shop h2, #shop h1, #news h1, #news h2, #news h3, #news h4 {
+  font-weight: bold;
+  color: #212121;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* line 1, ../scss/modules/_buttons.scss */
+.mybutton, #shop button {
+  background: #00d9a3;
+  border-color: black;
+  border-radius: 0;
+}
+
+/* LAYUOTS */
+/* line 1, ../scss/layouts/_global.scss */
+body {
+  padding: 0;
+}
+
+/* line 4, ../scss/layouts/_global.scss */
+1,h2,h3,h4 {
+  color: #00d9a3;
+}
+
+/* line 7, ../scss/layouts/_global.scss */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* line 1, ../scss/layouts/_header.scss */
+#main-menu {
+  margin: 0;
+  width: 100%;
+  background: #212121;
+  z-index: 1;
+}
+
+/* line 7, ../scss/layouts/_header.scss */
+.navbar-default {
+  border-color: #212121;
+  border-radius: 0;
+}
+
+/* line 13, ../scss/layouts/_header.scss */
+.navbar-default .navbar-brand {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* line 20, ../scss/layouts/_header.scss */
+.navbar-default .navbar-nav {
+  float: right;
+}
+/* line 25, ../scss/layouts/_header.scss */
+.navbar-default .navbar-nav > li > a {
+  text-transform: uppercase;
+  color: #00d9a3;
+  margin-top: 20px;
+}
+/* line 29, ../scss/layouts/_header.scss */
+.navbar-default .navbar-nav > li > a:hover {
+  color: white;
+  background: none;
+}
+/* line 33, ../scss/layouts/_header.scss */
+.navbar-default .navbar-nav > li > a:active {
+  color: white;
+  background: none;
+}
+/* line 38, ../scss/layouts/_header.scss */
+.navbar-default .navbar-nav > .active a {
+  color: white;
+  background: none;
+}
+/* line 41, ../scss/layouts/_header.scss */
+.navbar-default .navbar-nav > .active a:hover {
+  color: white;
+  background: none;
+}
+
+/* line 1, ../scss/layouts/_footer.scss */
+footer {
+  background: #212121;
+  color: #fff;
+}
+/* line 4, ../scss/layouts/_footer.scss */
+footer a {
+  color: #fff;
+}
+/* line 6, ../scss/layouts/_footer.scss */
+footer a:hover {
+  color: #00d9a3;
+  text-decoration: none;
+}
+
+/********* HERO ************/
+/* line 3, ../scss/layouts/_homepage.scss */
+.home #hero {
+  color: #fff;
+}
+/* line 4, ../scss/layouts/_homepage.scss */
+.home #hero h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 120px;
+}
+/* line 9, ../scss/layouts/_homepage.scss */
+.home #hero p {
+  text-transform: none;
+  font-size: 15px;
+}
+/* line 14, ../scss/layouts/_homepage.scss */
+.home #hero #hero-image {
+  min-height: 690px;
+}
+
+/* line 23, ../scss/layouts/_homepage.scss */
+.home .bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+/* line 28, ../scss/layouts/_homepage.scss */
+.top {
+  position: fixed;
+  top: 0;
+}
+
+/********* ABOUT ************/
+/* line 36, ../scss/layouts/_homepage.scss */
+.rowAbout {
+  margin-top: 120px;
+}
+
+/* line 39, ../scss/layouts/_homepage.scss */
+.verticalLine, .postAbout {
+  border-right: 1px solid black;
+}
+
+/* line 42, ../scss/layouts/_homepage.scss */
+.postAbout {
+  padding-top: 10px;
+}
+
+/* line 1, ../scss/layouts/_dated.scss */
+#dates {
+  background: #00d9a3;
+}
+
+/********* SHOP ************/
+/* line 3, ../scss/layouts/_shop.scss */
+#shop button {
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 30px;
+}
+/* line 14, ../scss/layouts/_shop.scss */
+#shop h2 {
+  font-size: 30px;
+}
+/* line 19, ../scss/layouts/_shop.scss */
+#shop h1 {
+  font-size: 60px;
+}
+/* line 25, ../scss/layouts/_shop.scss */
+#shop .shopClass {
+  margin-top: 100px;
+}
+/* line 28, ../scss/layouts/_shop.scss */
+#shop .chessSet {
+  margin-top: 100px;
+}
+
+/* line 34, ../scss/layouts/_shop.scss */
+.post-meta {
+  padding: 0;
+}
+/* line 36, ../scss/layouts/_shop.scss */
+.post-meta li {
+  list-style-type: none;
+}
+
+/* line 2, ../scss/layouts/_news.scss */
+#news h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+/* line 7, ../scss/layouts/_news.scss */
+#news h2 {
+  font-size: 15px;
+  color: #00d9a3;
+  margin-top: 10px;
+}
+/* line 17, ../scss/layouts/_news.scss */
+#news h4 {
+  color: #212121;
+}
+/* line 21, ../scss/layouts/_news.scss */
+#news .top-story {
+  padding: 10px!important;
+}
+/* line 25, ../scss/layouts/_news.scss */
+#news .stories {
+  padding: 10px!important;
+}
+/* line 29, ../scss/layouts/_news.scss */
+#news .read-more {
+  color: #00d9a3;
+}
+/* line 32, ../scss/layouts/_news.scss */
+#news .stories {
+  margin-bottom: 50px;
+}
+
+/* line 39, ../scss/layouts/_news.scss */
+.border, #news .top-story, #news .stories, #schedule .coming-events {
+  border: 1px solid #cacaca;
+}
+
+/* line 3, ../scss/layouts/_schedule.scss */
+#schedule .coming-events {
+  padding: 5px!important;
+}
+/* line 6, ../scss/layouts/_schedule.scss */
+#schedule .coming-events h2 {
+  color: #00d9a3;
+  background: black;
+}
+/* line 10, ../scss/layouts/_schedule.scss */
+#schedule .coming-events h3 {
+  color: #212121;
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+/* line 15, ../scss/layouts/_schedule.scss */
+#schedule .coming-events h5 {
+  font-size: 30px;
+}
+/* line 18, ../scss/layouts/_schedule.scss */
+#schedule .coming-events p {
+  margin-top: 40px;
+}
+
+/* line 32, ../scss/main.scss */
+img {
+  width: 100%;
+}
